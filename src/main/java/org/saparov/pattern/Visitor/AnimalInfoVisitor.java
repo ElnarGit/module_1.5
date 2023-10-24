@@ -5,7 +5,6 @@ public class AnimalInfoVisitor implements Visitor{
 	@Override
 	public void visit(Dog dog) {
 		System.out.println("Собака: " + dog.getName() + ", Возраст: " + dog.getAge() + " года");
-	
 	}
 	
 	@Override

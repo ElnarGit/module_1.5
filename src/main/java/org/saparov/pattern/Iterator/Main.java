@@ -18,7 +18,7 @@ public class Main {
 
         while (iterator.hasNext()){
             Integer number = iterator.next();
-            System.out.println(number);
+            System.out.print(number + " ");
         }
     }
 }

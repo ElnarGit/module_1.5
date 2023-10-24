@@ -9,7 +9,6 @@ public class MediatorImpl implements Mediator{
     public void registerFriend(Friend friend){
         friends.add(friend);
         friend.setMediator(this);
-        
     }
     
     @Override
